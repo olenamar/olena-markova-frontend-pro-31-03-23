@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.smilyes_ul {
+  list-style: none;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.smilyes_li {
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.smiles {
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: white;
+  padding: 5px;
+}
+
+.champion {
+  margin: 0 auto;
+}
+
+.result {
+  margin: 0 auto;
+  margin-top: 30px;
+  background: rgb(227, 70, 70);
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
