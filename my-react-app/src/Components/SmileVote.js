@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-const AppSmile = () => {
+const AllSmiles = () => {
   const [smileys, setSmileys] = useState([
     { id: 1, emoji: "😊", count: 0 },
     { id: 2, emoji: "😎", count: 0 },
@@ -49,4 +49,4 @@ const AppSmile = () => {
   );
 }
   
-export default AppSmile;
+export default AllSmiles;
