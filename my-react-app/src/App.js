@@ -1,10 +1,10 @@
 import './App.css';
-import Smile from "./Components/Smiles.js"
+import SmileVote from "./Components/SmileVote"
 
 function App() {
   return (
     <div className="App">
-      <Smile></Smile>
+      <SmileVote></SmileVote>
     </div>
   );
 }
