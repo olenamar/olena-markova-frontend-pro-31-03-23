@@ -1,5 +1,5 @@
 import './App.css';
-import Smile from "./Components/Smile.js"
+import Smile from "./Components/Smiles.js"
 
 function App() {
   return (

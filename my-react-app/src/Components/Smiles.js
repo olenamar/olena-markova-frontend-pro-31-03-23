@@ -42,8 +42,8 @@ const AppSmile = () => {
       ))}
     </ul>
     <div className="champion">
-      <button className="result"  onClick={showResults}>Show Results</button>
-      <h2>The champion is: {champion}</h2>
+      <button className="result" onClick={showResults}>Show Results</button>
+      {champion &&<div>{alert (`The champion is: ${champion}`)}</div>}
       </div>
     </div>
   );

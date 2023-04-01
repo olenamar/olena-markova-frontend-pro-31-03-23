@@ -29,6 +29,13 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
+button {   
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(232, 194, 58);
+}
 
 span {
   margin-left: 10px;
